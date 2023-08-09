@@ -1,4 +1,4 @@
-# Gans Data Engineering Project (Passive Voice)
+# Gans Data Engineering Project
 
 ## Overview
 Welcome to the Gans Data Engineering Project, which was completed during a Data Science bootcamp. In this project, the challenge of building an automated data pipeline for Gans, a startup specializing in e-scooter-sharing systems, was tackled. The project aimed to create a robust and scalable solution to collect, transform, and store various critical data sources for optimizing e-scooter operations.
