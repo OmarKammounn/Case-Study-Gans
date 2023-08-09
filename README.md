@@ -1,26 +1,26 @@
-# Gans Data Engineering Project
+# Gans Data Engineering Project (Passive Voice)
 
 ## Overview
-Welcome to the Gans Data Engineering Project, completed during a Data Science bootcamp. In this project, I tackled the challenge of building an automated data pipeline for Gans, a startup specializing in e-scooter-sharing systems. The project aimed to create a robust and scalable solution to collect, transform, and store various data sources critical for optimizing e-scooter operations.
+Welcome to the Gans Data Engineering Project, which was completed during a Data Science bootcamp. In this project, the challenge of building an automated data pipeline for Gans, a startup specializing in e-scooter-sharing systems, was tackled. The project aimed to create a robust and scalable solution to collect, transform, and store various critical data sources for optimizing e-scooter operations.
 
 ## Project Phases
 The project unfolded in several key phases, each focused on specific aspects of the data pipeline:
 
 ### Part 1: Data Collection
-During this phase, I employed web scraping and APIs to gather essential data that would fuel Gans' decision-making process. I extracted demographical information about cities, weather forecasts, and flight arrival data for tourists.
+During this phase, essential data that would fuel Gans' decision-making process was gathered using web scraping and APIs. Demographical information about cities, weather forecasts, and flight arrival data for tourists were extracted.
 
 ### Part 2: Data Storage and Transformation
-This phase involved the creation of a MySQL database with a well-defined relational schema to store the collected data. I used Python's SQLAlchemy library to connect Python with MySQL, enabling seamless data insertion and transformation.
+This phase involved the creation of a MySQL database with a well-defined relational schema to store the collected data. The Python's SQLAlchemy library was used to connect Python with MySQL, enabling seamless data insertion and transformation.
 
 ### Part 3: Cloud Deployment
-In this final phase, I migrated the data pipeline to the cloud using Amazon Web Services (AWS). I set up an AWS RDS instance using `boto3` and deployed data collection scripts as AWS Lambda functions. Additionally, I scheduled automatic script execution using AWS CloudWatch Events.
+In this final phase, the data pipeline was migrated to the cloud using Amazon Web Services (AWS). An AWS RDS instance was set up using `boto3`, and data collection scripts were deployed as AWS Lambda functions. Additionally, automatic script execution was scheduled using AWS CloudWatch Events.
 
 ## Tools and Technologies Used
-Throughout the project, I harnessed various tools and libraries, including:
-- **Web Scraping**: Utilized the `beautifulsoup` library to extract data from websites.
-- **APIs**: Employed the `requests` library to interact with APIs and retrieve data.
-- **MySQL and SQLAlchemy**: Created and managed the MySQL database using SQLAlchemy for data storage and transformation.
-- **AWS and `boto3`**: Set up cloud resources on AWS, including RDS and Lambda, using the `boto3` library for seamless integration.
+Throughout the project, various tools and libraries were harnessed, including:
+- **Web Scraping**: The `beautifulsoup` library was utilized to extract data from websites.
+- **APIs**: The `requests` library was employed to interact with APIs and retrieve data.
+- **MySQL and SQLAlchemy**: The MySQL database was created and managed using SQLAlchemy for data storage and transformation.
+- **AWS and `boto3`**: Cloud resources on AWS, including RDS and Lambda, were set up using the `boto3` library for seamless integration.
 
 ## Key Skills Acquired
 This project provided an opportunity to develop a range of skills:
